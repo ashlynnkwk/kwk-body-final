@@ -1,0 +1,440 @@
+body{
+  background-color:#E8D7F4;
+}
+
+.navigationbar{
+  display: flex;
+  justify-content: flex-start;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  margin: 20px;
+}
+
+
+h1{
+  color: white;
+  text-align: center;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 20px;
+}
+
+h2{
+  text-align: center;
+  font-family: 'Lexend Deca', sans-serif;
+  color: #BABABA;
+  font-size: 20px;
+}
+
+a:hover{
+  color: gray
+}
+.link {
+  text-decoration:none;
+  color:#BABABA;
+}
+
+.link2{
+  text-decoration:none;
+  color: white;
+}
+
+.link3{
+  text-decoration:none;
+}
+
+link:hover{
+  color: gray
+}
+
+#homebutton{
+  background-color: transparent;
+  border-color: transparent;
+}
+
+#perspective{
+  background-color: transparent;
+  border-color: transparent;
+}
+
+#resources{
+  background-color: transparent;
+  border-color: transparent;
+}
+
+#aboutus{
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.question{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+h3{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 25px;
+  color:#BABABB;
+}
+
+.ratebuttons{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+#rate1{
+  background-color: white;
+  color:#00008B;
+  border-color: transparent;
+  height:50px;
+  width:50px;
+  font-size:20px;
+  border-radius:100px;
+  padding-right:10px;
+}
+
+#rate2{
+  background-color: white;
+  color:#183270;
+  border-color: transparent;
+  height:50px;
+  width:50px;
+  font-size:20px;
+  border-radius:100px;
+  padding-right:10px;
+}
+
+#rate3{
+  background-color: white;
+  color:#082D82;
+  border-color: transparent;
+  height:50px;
+  width:50px;
+  font-size:20px;
+  border-radius:100px;
+  padding-right:10px;
+}
+
+#rate4{
+  background-color: white;
+  color:#192A53;
+  border-color: transparent;
+  height:50px;
+  width:50px;
+  font-size:20px;
+  border-radius:100px;
+  padding-right:10px;
+}
+#rate5{
+  background-color: white;
+  color:#6457D4;
+  border-color: transparent;
+  height:50px;
+  width:50px;
+  font-size:20px;
+  border-radius:100px;
+  padding-right:10px;
+}
+#rate6{
+  background-color: white;
+  color:#4938DB;
+  border-color: transparent;
+  height:50px;
+  width:50px;
+  font-size:20px;
+  border-radius:100px;
+  padding-right:10px;
+}
+#rate7{
+  background-color: white;
+  color:#3885DB;
+  border-color: transparent;
+  height:50px;
+  width:50px;
+  font-size:20px;
+  border-radius:100px;
+  padding-right:10px;
+}
+#rate8{
+  background-color: white;
+  color:#2684EE;
+  border-color: transparent;
+  height:50px;
+  width:50px;
+  font-size:20px;
+  border-radius:100px;
+  padding-right:10px;
+}
+#rate9{
+  background-color: white;
+  color:#26B4EE;
+  border-color: transparent;
+  height:50px;
+  width:50px;
+  font-size:20px;
+  border-radius:100px;
+  padding-right:10px;
+}
+#rate10{
+  background-color: white;
+  color:#26CBEE;
+  border-color: transparent;
+  height:50px;
+  width:50px;
+  font-size:20px;
+  border-radius:100px;
+  padding-right:10px;
+}
+
+h5{
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Lexend Deca', sans-serif;
+  color: #9E9E9E;
+}
+
+#quoteDisplay{
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color:gray;
+}
+
+@media screen and (max-width: 600px){
+  p{
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
+/* about us page */
+
+h4{
+  font-size: 18px;
+  text-align: left;
+  font-family: 'Lexend Deca', sans-serif;
+  color: #757575;
+  width: 350px;
+  padding: 10px;
+  margin-left: 18px;
+}
+
+.aboutUsPictures{
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.allAboutUsPictures{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.pfp{
+  width: 375px;
+  height: 500px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.pfp:hover {
+  background-color:white;
+}
+
+/* beauty through the ages */
+
+.beauty{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+p{
+  font-size: 20px;
+  text-align: left;
+  font-family: 'Lexend Deca', sans-serif;
+  color: #AAAAAA;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* RESOURCES PAGE */
+h6 {
+  font-family:'Lexend Deca', sans-serif;
+  font-size:25px;
+  color:gray;
+  text-align:center;
+}
+p{
+  text-align:center;
+}
+.bookbutton{
+  width: 165px;
+  height:300px;
+  background-color:white;
+  color:gray;
+  font-family:'Lexend Deca', sans-serif;
+  font-size:11px;
+}
+
+.book{
+  width: 150px;
+  height: 200px;
+}
+
+.resourcebooks{
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.resourceinfluencers{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.influencerbutton {
+  width: 165px;
+  height:300px;
+  background-color:white;
+  color:gray;
+  font-family:'Lexend Deca', sans-serif;
+  font-size:11px;
+  object-fit:cover;
+}
+
+.influencer{
+  width:150px;
+  height:200px;
+  object-fit:cover;
+}
+
+#glitterimage{
+  position:absolute;
+  top: 350px;
+  left:20px;
+  height: 500px;
+  width: 100%;
+  display: none;
+}
+
+.hotlines{
+  font-size:15px;
+}
+.spotify {
+  text-align: center;
+  text-decoration:none;
+}
+p1{
+  text-align: center;
+  text-decoration:none;
+  font-family:'Lexend Deca', sans-serif;
+  font-size:18px;
+}
+
+.centerimg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  height: 600px;
+}
